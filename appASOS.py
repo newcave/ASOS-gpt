@@ -4,6 +4,7 @@ import streamlit as st
 
 # set up the API key and endpoint URL
 API_URL = "http://apis.data.go.kr/1360000/AsosHourlyInfoService/getWthrDataList"
+API_KEY = "egVDA2o6pwjtnUzVIPKzAjyoqYbAfUHumiJ7WrNoWefzLIKzRFnYUSTYQyoacgEcWpNBshNqMQo0n47Q%2FyBsZQ%3D%3D"
 
 # define a function to get weather data for a given date and location
 def get_weather_data(date, location):
