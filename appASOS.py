@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 import streamlit as st
 
 # set up the API key and endpoint URL
-API_KEY = "YOUR_API_KEY"
 API_URL = "http://apis.data.go.kr/1360000/AsosHourlyInfoService/getWthrDataList"
 
 # define a function to get weather data for a given date and location
