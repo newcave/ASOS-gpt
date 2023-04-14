@@ -30,9 +30,9 @@ def get_weather_data(date, location):
     data = response.json()["response"]["body"]["items"]["item"]
 
     # extract the relevant weather values (temperature, wind speed, humidity)
-    temps = [float(d["TA"]) for d in data]
-    wind_speeds = [float(d["WS"]) for d in data]
-    humidities = [float(d["HM"]) for d in data]
+    temps = [float(d["ta"]) for d in data]
+    wind_speeds = [float(d["ws"]) for d in data]
+    humidities = [float(d["hm"]) for d in data]
 
     return temps, wind_speeds, humidities
 
